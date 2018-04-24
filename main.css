@@ -1,0 +1,151 @@
+a:link, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+  color: white;
+}
+
+.about_list a:link, .about_list a:visited {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+.about_list a:hover, .about_list a:active {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+
+.logo {
+  float: left;
+  display: inline-block;
+  height
+}
+
+#title {
+  float: left;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  height: 10px;
+  padding: 0;
+  margin:auto;
+}
+
+
+.about_list {
+  color: white;
+  text-align: left;
+  position: relative;
+  font-size: 20px;
+  float: right;
+  clear: both;
+}
+
+.list {
+  display: inline-block;
+  padding-top: 200px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding 0;
+
+}
+
+.navigation li {
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+  border-right: 1px solid white;
+  text-align: center;
+  padding-right: 8px;
+
+}
+
+
+.navigation li:last-child, #makers-links li:last-child, #social-links li:last-child {
+  border-right: none;
+  padding: 0;
+}
+
+
+.navigation  {
+  color: white;
+  text-align: right;
+}
+
+#makers-links li {
+  display: inline-block;
+  font-size: 20px;
+  border-right: 1px solid white;
+  padding-right: 8px;
+}
+
+#makers-links {
+  padding-top: 14px;
+}
+
+#social-links {
+  padding-top: 80px;
+}
+
+#social-links li {
+  display: inline-block;
+  font-size: 30px;
+  border-right: 1px solid white;
+  padding-right: 8px;
+}
+
+img[src="./images/profile.jpg"] {
+  height: 400px;
+  width: 400px;
+  border-radius: 200px;
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 100px;
+  left: 35px;
+  clear: both;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background-color: #0960BD;
+  color: white;
+}
+
+#description {
+  position:relative;
+  display: inline-block;
+  top: 250px;
+  text-align: center;
+}
+
+#nav {
+ text-align:center;
+}
+
+#Makers {
+  border: 5px solid white;
+  padding: 20px;
+  margin: 20px;
+}
+
+.right {
+  text-align: right;
+}
+
+.left-image {
+  float: left;
+  padding: 40px 25px;
+}
